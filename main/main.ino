@@ -31,6 +31,9 @@ const int ultraEcho = 15;
 const int ultraTrigger = 16;
 
 //--------------------------------------------------
+int mouthPos = 0;
+
+//--------------------------------------------------
 
 // Run only once at the beginning of the program (on plugin of the animatronic)
 void setup() {
@@ -55,15 +58,17 @@ void setup() {
 // All functions in LOOP regarding sensors will call their own "reaction" functions
 // so they do not need to be referenced here
 void loop() {
-  // function call for BUTTON action/reaction
-  checkButtonState();
+  //testScript();
+  
+  // // function call for BUTTON action/reaction
+   checkButtonState();
 
-  // function call for PHOTORESISTOR and LED action/reaction
-  checkLightLevels();
+  // // function call for PHOTORESISTOR and LED action/reaction
+  // checkLightLevels();
 
-  // function call for ULTRASONIC sensor
-  checkForMotion();
+  // // function call for ULTRASONIC sensor
+  // checkForMotion();
 
-  // function calls for ULTRASONIC reactions (different for different distances)
-  checkDistance();
+  // // function calls for ULTRASONIC reactions (different for different distances)
+  // checkDistance();
 }
