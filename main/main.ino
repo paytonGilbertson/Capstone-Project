@@ -13,10 +13,10 @@
 const int buttonPin = 12; // pin 12 reads button state
 
 // PhotoResistor Pin
-const int photoresistorPin = 0;  // A0 reads photoresistor value
+const int photoresistorPin = A0;  // A0 reads photoresistor value
 
 // LED Pin
-const int ledPin = 4;  //  pin 4 outputs led brightness
+const int ledPin = 2;  //  pin 2 outputs led brightness
 
 // SERVOs
 // Servo objects are defined here, attached to pins in setup() function
@@ -31,7 +31,7 @@ const int ultraEcho = 15;
 const int ultraTrigger = 16;
 
 //--------------------------------------------------
-int mouthPos = 0;
+int mouthPos = 130;
 
 //--------------------------------------------------
 
@@ -40,6 +40,7 @@ void setup() {
   // set up pins for LED, SERVOS, SPEAKER, etc. as either INPUT or OUTPUT
   pinMode(buttonPin, INPUT);
   pinMode(ledPin, OUTPUT);
+  pinMode(photoresistorPin, INPUT);
 
   rShoulder.attach(10);
   lShoulder.attach(6);
@@ -64,7 +65,7 @@ void loop() {
    checkButtonState();
 
   // // function call for PHOTORESISTOR and LED action/reaction
-  // checkLightLevels();
+   checkLightLevels();
 
   // // function call for ULTRASONIC sensor
   // checkForMotion();

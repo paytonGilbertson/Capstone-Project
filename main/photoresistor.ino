@@ -5,12 +5,15 @@ void checkLightLevels() {
   // Adjust the value 0 to 900 to span 0 to 255
 
   // Print out the lightLevel value to check threshold is correct
-  Serial.println(lightLevel);
+  //Serial.println(lightLevel);
 
   // Turn light off if there is light, turn it on based on amount of light
   if (lightLevel < 100) {
-    analogWrite(ledPin, LOW);
-  } else {
-    analogWrite(ledPin, HIGH);  // Write the value
+    digitalWrite(ledPin, 1);
+        Serial.println("on");
+
+  } 
+  else {
+    digitalWrite(ledPin, 0);  // Write the value
   }
 }
