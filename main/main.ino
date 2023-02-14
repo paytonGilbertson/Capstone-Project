@@ -7,8 +7,8 @@
 #include <Vocab_Special.h>
 
 //--------------------------------------------------
-
 // DEFINE CONST VARIABLES
+
 // Button Pin
 const int buttonPin = 12; // pin 12 reads button state
 
@@ -31,6 +31,7 @@ const int ultraEcho = 15;
 const int ultraTrigger = 16;
 
 //--------------------------------------------------
+// Other necessary global variables
 int mouthPos = 130;
 
 //--------------------------------------------------
