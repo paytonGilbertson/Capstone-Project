@@ -4,7 +4,14 @@
 #include <Talkie.h>
 #include <TalkieUtils.h>
 #include <Vocab_US_Large.h>
+//#include <Vocab_AstroBlaster.h>
+//#include <Vocab_Soundbites.h>
 #include <Vocab_Special.h>
+#include <Vocab_Toms_Diner.h>
+#include <Vocab_US_Acorn.h>
+#include <Vocab_US_Clock.h>
+#include <Vocab_US_TI99.h>
+
 
 //--------------------------------------------------
 // DEFINE CONST VARIABLES
@@ -33,6 +40,8 @@ const int ultraTrigger = 16;
 //--------------------------------------------------
 // Other necessary global variables
 int mouthPos = 130;
+
+Talkie voice;
 
 //--------------------------------------------------
 
@@ -66,7 +75,7 @@ void loop() {
    checkButtonState();
 
   // // function call for PHOTORESISTOR and LED action/reaction
-   checkLightLevels();
+   //checkLightLevels();
 
   // // function call for ULTRASONIC sensor
   // checkForMotion();
