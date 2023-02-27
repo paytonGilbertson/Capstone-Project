@@ -6,7 +6,10 @@ void checkButtonState() {
 
   // if button is pushed, call function to start animation
   if(buttonState == 0) {
-    testScript();
+    Serial.println("pushed");
+    // testScriptMouth();
+    // testScriptRShoulder();
+    // testScriptLShoulder();
   }
 
 

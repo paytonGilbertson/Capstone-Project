@@ -39,7 +39,9 @@ const int ultraTrigger = 16;
 
 //--------------------------------------------------
 // Other necessary global variables
-int mouthPos = 130;
+int rShoulderPos = 0;
+int lShoulderPos = 110;
+int mouthPos = 0;
 
 Talkie voice;
 
@@ -62,6 +64,7 @@ void setup() {
   pinMode(ultraTrigger, OUTPUT);
 
   Serial.begin(9600);
+  sayHello();
 }
 
 //--------------------------------------------------
@@ -70,6 +73,7 @@ void setup() {
 // so they do not need to be referenced here
 void loop() {
   //testScript();
+  //sayHello();
   
   // // function call for BUTTON action/reaction
    checkButtonState();
