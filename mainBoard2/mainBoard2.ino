@@ -43,6 +43,7 @@ int rShoulderPos = 0;
 int lShoulderPos = 110;
 int mouthPos = 0;
 
+
 Talkie voice;
 
 //--------------------------------------------------
