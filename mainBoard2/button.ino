@@ -8,8 +8,8 @@ void checkButtonState() {
   if(buttonState == 0) {
     Serial.println("pushed");
     // sayHello();
+    //testScriptRShoulder();
     //  testScriptMouth();
-    //  testScriptRShoulder();
     //  testScriptLShoulder();
   }
 
