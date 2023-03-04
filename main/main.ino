@@ -64,6 +64,7 @@ void setup() {
   pinMode(ultraTrigger, OUTPUT);
 
   Serial.begin(9600);
+
 }
 
 //--------------------------------------------------
@@ -77,7 +78,7 @@ void loop() {
    checkButtonState();
 
   // // function call for PHOTORESISTOR and LED action/reaction
-   //checkLightLevels();
+   checkLightLevels();
 
   // // function call for ULTRASONIC sensor
   // checkForMotion();
