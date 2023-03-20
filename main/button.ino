@@ -5,14 +5,9 @@ void checkButtonState() {
   buttonState = digitalRead(buttonPin);
 
   // if button is pushed, call function to start animation
-  if(buttonState == 0) {
+  if (buttonState == 0) {
     Serial.println("pushed");
-delay(1500);    
-     sayHello();
-    //  testScriptMouth();
-    //  testScriptRShoulder();
-    //  testScriptLShoulder();
+    delay(1500);
+    sayHello();
   }
-
-
 }

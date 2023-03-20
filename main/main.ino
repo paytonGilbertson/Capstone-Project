@@ -17,7 +17,7 @@
 // DEFINE CONST VARIABLES
 
 // Button Pin
-const int buttonPin = 12; // pin 12 reads button state
+const int buttonPin = 12;  // pin 12 reads button state
 
 // PhotoResistor Pin
 const int photoresistorPin = A0;  // A0 reads photoresistor value
@@ -25,13 +25,6 @@ const int photoresistorPin = A0;  // A0 reads photoresistor value
 // LED Pin
 const int ledPin = 2;  //  pin 2 outputs led brightness
 
-// SERVOs
-// Servo objects are defined here, attached to pins in setup() function
-Servo rShoulder;
-Servo lShoulder;
-Servo rElbow;
-Servo lElbow;
-Servo mouth;
 
 // Ultrasonic Sensor Pins
 const int ultraEcho = A1;
@@ -39,10 +32,6 @@ const int ultraTrigger = A2;
 
 //--------------------------------------------------
 // Other necessary global variables
-int rShoulderPos = 0;
-int lShoulderPos = 110;
-int mouthPos = 0;
-
 Talkie voice;
 
 //--------------------------------------------------
@@ -54,17 +43,10 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(photoresistorPin, INPUT);
 
-  rShoulder.attach(10);
-  lShoulder.attach(6);
-  rElbow.attach(9);
-  lElbow.attach(5);
-  mouth.attach(4);
-
   pinMode(ultraEcho, INPUT);
   pinMode(ultraTrigger, OUTPUT);
 
   Serial.begin(9600);
-
 }
 
 //--------------------------------------------------
@@ -73,12 +55,12 @@ void setup() {
 // so they do not need to be referenced here
 void loop() {
   //testScript();
-  
+
   // // function call for BUTTON action/reaction
-   checkButtonState();
+  checkButtonState();
 
   // // function call for PHOTORESISTOR and LED action/reaction
-   checkLightLevels();
+  checkLightLevels();
 
   // // function call for ULTRASONIC sensor
   // checkForMotion();

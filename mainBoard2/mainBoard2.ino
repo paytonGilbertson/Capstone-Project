@@ -1,23 +1,12 @@
 // Information needed for the "Servo" library to control motors
 #include <Servo.h>
-// Information needed for the "Talkie" library which will control the voice
-#include <Talkie.h>
-#include <TalkieUtils.h>
-#include <Vocab_US_Large.h>
-//#include <Vocab_AstroBlaster.h>
-//#include <Vocab_Soundbites.h>
-#include <Vocab_Special.h>
-#include <Vocab_Toms_Diner.h>
-#include <Vocab_US_Acorn.h>
-#include <Vocab_US_Clock.h>
-#include <Vocab_US_TI99.h>
 
 
 //--------------------------------------------------
 // DEFINE CONST VARIABLES
 
 // Button Pin
-const int buttonPin = 12; // pin 12 reads button state
+const int buttonPin = 12;  // pin 12 reads button state
 
 // PhotoResistor Pin
 const int photoresistorPin = A0;  // A0 reads photoresistor value
@@ -29,8 +18,6 @@ const int ledPin = 2;  //  pin 2 outputs led brightness
 // Servo objects are defined here, attached to pins in setup() function
 Servo rShoulder;
 Servo lShoulder;
-Servo rElbow;
-Servo lElbow;
 Servo mouth;
 
 // Ultrasonic Sensor Pins
@@ -44,8 +31,6 @@ int lShoulderPos = 110;
 int mouthPos = 0;
 
 
-Talkie voice;
-
 //--------------------------------------------------
 
 // Run only once at the beginning of the program (on plugin of the animatronic)
@@ -57,8 +42,6 @@ void setup() {
 
   rShoulder.attach(10);
   lShoulder.attach(6);
-  rElbow.attach(9);
-  lElbow.attach(5);
   mouth.attach(4);
 
   pinMode(ultraEcho, INPUT);
@@ -73,12 +56,12 @@ void setup() {
 // so they do not need to be referenced here
 void loop() {
   //testScript();
-  
+
   // // function call for BUTTON action/reaction
-   checkButtonState();
+  checkButtonState();
 
   // // function call for PHOTORESISTOR and LED action/reaction
-   //checkLightLevels();
+  //checkLightLevels();
 
   // // function call for ULTRASONIC sensor
   // checkForMotion();

@@ -1,5 +1,5 @@
 void sayHello() {
-  voice.say( sp3_HIGH);
+  voice.say(sp3_HIGH);
   voice.say(spt_THERE);
   //voice.say(sp2_M);
   voice.say(sp2_Y);
