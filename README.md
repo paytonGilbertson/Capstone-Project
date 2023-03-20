@@ -13,6 +13,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [Materials and Requirements](#materials-and-requirements)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
 
 ## Materials and Requirements
 ### Physical Materials
@@ -54,7 +55,3 @@ The last section of a high-quality README file is the license. This lets other d
 
 - Light up LED nose based on amount of light
 - Says a greeting and waves
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
