@@ -7,7 +7,7 @@ I have always been inspired by the ingenuity of Disney Imagineers, as well as th
 Through the process of my project's creation, I tested the limits of myself and my Arduino Uno that I was working with. I learned, often the hard way, that I was a bit too ambitious for the time allowed and power provided by one Arduino, so I had to break the construction and code down to simple steps that could each be executed individually before slowly combining and testing everything together.
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Materials and Requirements](#materials-and-requirements)
@@ -48,8 +48,6 @@ If you followed tutorials, include links to those here as well.
 ## License
 
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
 
 ## Features
 
