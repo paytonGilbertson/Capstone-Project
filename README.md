@@ -31,6 +31,7 @@ Links included for materials purchased for this project.
 - Hot Glue
 - Gorilla Glue
 - K'NEX (Recycled from childhood toys)
+- 1 button
 
 ### Required Software and Libraries
 - Arduino IDE [Downloadable here](https://www.arduino.cc/en/software)
