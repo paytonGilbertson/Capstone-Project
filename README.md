@@ -18,14 +18,25 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Materials and Requirements
 ### Physical Materials
+Links included for materials purchased for this project.
 
 - 1 Arduino Uno
 - 1 Emptied Good Host Iced Tea powder container
-- 3 Servo Motors
-- 1 Speaker (from Value Village)
+- 3 [Servo Motors](https://www.amazon.ca/gp/product/B07H85M78M/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+- 1 Recycled Speaker (from Value Village)
+- 1 Large LED
+- 1 Photoresistor
+- 1 [5W Audio Amplifier Module](https://www.amazon.ca/gp/product/B077MKQJW2/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+- Duct Tape
+- Electrical Tape
+- Hot Glue
+- Gorilla Glue
+- K'NEX (Recycled from childhood toys)
 
 ### Required Software and Libraries
-
+- Arduino IDE [Downloadable here](https://www.arduino.cc/en/software)
+- Arduino's Servo library [GitHub Repository](https://github.com/arduino-libraries/Servo)
+- ArminJo's Talkie library [GitHub Repository](https://github.com/ArminJo/Talkie)
 
 ## Credits
 
@@ -43,7 +54,8 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Light up LED nose based on amount of light
+- Says a greeting and waves
 
 ## Tests
 
