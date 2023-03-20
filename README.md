@@ -1,4 +1,4 @@
-# CTCH 499 Capstone-Project: Arduino based Animatronic Character
+# CTCH 499 Capstone Project: Arduino based Animatronic Character
 ## Description
 
 For my capstone project, I decided to create a very basic animatronic utilizing my skills with the Arduino Uno as well as my love of crafting and recycled materials. 
