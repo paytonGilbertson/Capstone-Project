@@ -20,18 +20,31 @@ If your README is long, add a table of contents to make it easy for users to fin
 Links included for materials purchased for this project.
 
 - 1 Arduino Uno
-- 1 Emptied Good Host Iced Tea powder container
+- 1 Solarbotics SketchBoard
 - 3 [Servo Motors](https://www.amazon.ca/gp/product/B07H85M78M/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 - 1 Recycled Speaker (from Value Village)
 - 1 Large LED
 - 1 Photoresistor
+- 1 Pushbutton
+- 1 Ultrasonic Distance Sensor
+- 1 560Ω Resistor
+- 2 220Ω Resistors
 - 1 [5W Audio Amplifier Module](https://www.amazon.ca/gp/product/B077MKQJW2/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
+- 2 5xAA Battery Packs
+
+- 1 Emptied Good Host Iced Tea powder container
 - Duct Tape
 - Electrical Tape
 - Hot Glue
 - Gorilla Glue
 - K'NEX (Recycled from childhood toys)
-- 1 button
+- Velcro stickers
+- Recycled Black T-Shirt
+- Crayola White Model Magic
+- Styrofoam Half-Sphere
+- Recycled Cardboard
+- Multiple pieces of Felt
+
 
 ### Required Software and Libraries
 - Arduino IDE [Downloadable here](https://www.arduino.cc/en/software)
