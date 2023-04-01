@@ -33,6 +33,7 @@ const int ultraTrigger = A2;
 //--------------------------------------------------
 // Other necessary global variables
 Talkie voice;
+int buttonState = 0;
 
 //--------------------------------------------------
 
@@ -59,8 +60,9 @@ void loop() {
   // // function call for BUTTON action/reaction
   checkButtonState();
 
+//sayHello();
   // // function call for PHOTORESISTOR and LED action/reaction
-  checkLightLevels();
+  //checkLightLevels();
 
   // // function call for ULTRASONIC sensor
   // checkForMotion();

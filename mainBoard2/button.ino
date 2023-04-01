@@ -9,6 +9,6 @@ void checkButtonState() {
     Serial.println("pushed");
     testScriptRShoulder();
     testScriptMouth();
-    //  testScriptLShoulder();
+    testScriptLShoulder();
   }
 }

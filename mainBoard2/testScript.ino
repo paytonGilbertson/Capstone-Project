@@ -1,13 +1,13 @@
 // Test for all function except for photoresistor and LED
 void testScriptMouth() {
   // TEST FOR MOUTH
-  for (mouthPos = 0; mouthPos <= 100; mouthPos += 2) {  // goes from 0 degrees to 180 degrees
+  for (mouthPos = 25; mouthPos <= 190; mouthPos += 2) {  // goes from 0 degrees to 180 degrees
     // in steps of 1 degree
     mouth.write(mouthPos);  // tell servo to go to position in variable 'pos'
     delay(15);
     //Serial.println("mouth");                      // waits 15 ms for the servo to reach the position
   }
-  for (mouthPos = 100; mouthPos >= 0; mouthPos -= 2) {  // goes from 180 degrees to 0 degrees
+  for (mouthPos = 190; mouthPos >= 25; mouthPos -= 2) {  // goes from 180 degrees to 0 degrees
     mouth.write(mouthPos);                              // tell servo to go to position in variable 'pos'
     delay(15);                                          // waits 15 ms for the servo to reach the position
   }
