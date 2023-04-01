@@ -9,7 +9,6 @@ Through the process of my project's creation, I tested the limits of myself and 
 
 ## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 - [Materials and Requirements](#materials-and-requirements)
 - [Credits](#credits)
 - [License](#license)
@@ -31,6 +30,7 @@ Links included for materials purchased for this project.
 - 2 220Ω Resistors
 - 1 [5W Audio Amplifier Module](https://www.amazon.ca/gp/product/B077MKQJW2/ref=ppx_yo_dt_b_asin_title_o06_s00?ie=UTF8&psc=1)
 - 2 5xAA Battery Packs
+
 
 - 1 Emptied Good Host Iced Tea powder container
 - Duct Tape
@@ -58,10 +58,6 @@ List your collaborators, if any, with links to their GitHub profiles.
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
 If you followed tutorials, include links to those here as well.
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ## Features
 
