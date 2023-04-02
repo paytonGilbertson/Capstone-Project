@@ -1,6 +1,7 @@
 void sayHello() {
   voice.say(sp3_HIGH);
   voice.say(spt_THERE);
+  delay(3000);
   //voice.say(sp2_M);
   voice.say(sp2_Y);
   voice.say(spa_NAME);
@@ -11,4 +12,13 @@ void sayHello() {
   voice.say(spt_AM);
   voice.say(spa_A);
   voice.say(sp2_MACHINE);
+}
+
+void scream() {
+  voice.say(sp2_DANGER);
+  voice.say(sp2_DANGER);
+  delay(100);
+  voice.say(sp4_LIGHTS);
+  voice.say(sp4_OUT);
+  delay(200);
 }

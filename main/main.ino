@@ -59,14 +59,11 @@ void loop() {
 
   // // function call for BUTTON action/reaction
   checkButtonState();
+  //scream();
 
 //sayHello();
   // // function call for PHOTORESISTOR and LED action/reaction
   //checkLightLevels();
 
-  // // function call for ULTRASONIC sensor
-  // checkForMotion();
-
-  // // function calls for ULTRASONIC reactions (different for different distances)
-  // checkDistance();
+  
 }
