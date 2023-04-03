@@ -9,10 +9,16 @@ Through the process of my project's creation, I tested the limits of myself and 
 
 ## Table of Contents
 
+- [Final Animatronic](#final-animatronic)
 - [Materials and Requirements](#materials-and-requirements)
-- [Credits](#credits)
-- [License](#license)
+- [Circuit Diagram](#circuit-diagram)
 - [Features](#features)
+
+
+## Final Animatronic
+
+![Final animatronic](/Images/theBoy.png)
+
 
 ## Materials and Requirements
 ### Physical Materials
