@@ -6,13 +6,65 @@ void checkButtonState() {
 
   // if button is pushed, call function to start animation
   if (buttonState == 1) {
-    delay(1000);
+    mouth.write(25);
+    delay(150);
+    mouth.write(170);
+    delay(150);
+    //mouth.write(145);
+    delay(150);
+    mouth.write(25);
+    delay(150);
+    mouth.write(170);
+    delay(150);
+    //mouth.write(145);
+
+    delay(450);
     //Serial.println("pushed");
-    rShoulder.write(78);
-    rShoulder.write(45);
     wave();
-    wave();
-    rShoulder.write(160);
-    Serial.println("down");
+
+    // Range: 25@open to 170@closed
+
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+
+
+    //delay(150);
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+
+
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+
+
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
+
+    mouth.write(25);
+    delay(300);
+    mouth.write(170);
+    delay(300);
   }
 }

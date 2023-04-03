@@ -43,8 +43,14 @@ void setup() {
 
   Serial.begin(9600);
 
+  // Range: 160@bottom to 0@top
   rShoulder.write(160);
+
+  // Range: 0@bottom to 160@top
   lShoulder.write(0);
+
+  // Range: 25@open to 170@closed
+  mouth.write(145);
 }
 
 //--------------------------------------------------
@@ -52,12 +58,21 @@ void setup() {
 // All functions in LOOP regarding sensors will call their own "reaction" functions
 // so they do not need to be referenced here
 void loop() {
-  //testScriptMouth();
-  //testScriptRShoulder();
-  //testScriptLShoulder();
-  //checkLightLevels();
+
+  checkLightLevels();
 
   // // function call for BUTTON action/reaction
-  checkButtonState();
-  //Serial.println(buttonState);
+   checkButtonState();
+
+
+
+  // RESET MOTORS TO ORIGIN
+  // Range: 160@bottom to 0@top
+  rShoulder.write(160);
+
+  // Range: 0@bottom to 160@top
+  lShoulder.write(0);
+
+  // Range: 25@open to 170@closed
+  mouth.write(145);
 }

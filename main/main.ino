@@ -55,15 +55,12 @@ void setup() {
 // All functions in LOOP regarding sensors will call their own "reaction" functions
 // so they do not need to be referenced here
 void loop() {
-  //testScript();
 
   // // function call for BUTTON action/reaction
   checkButtonState();
-  //scream();
-
-//sayHello();
+ 
   // // function call for PHOTORESISTOR and LED action/reaction
-  //checkLightLevels();
+  checkLightLevels();
 
   
 }

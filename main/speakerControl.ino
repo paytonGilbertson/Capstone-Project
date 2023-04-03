@@ -21,4 +21,11 @@ void scream() {
   voice.say(sp4_LIGHTS);
   voice.say(sp4_OUT);
   delay(200);
+
+  voice.say(sp2_DANGER);
+  voice.say(sp2_DANGER);
+  delay(100);
+  voice.say(sp4_LIGHTS);
+  voice.say(sp4_OUT);
+  delay(200);
 }

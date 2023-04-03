@@ -8,8 +8,8 @@ void testScriptMouth() {
     //Serial.println("mouth");                      // waits 15 ms for the servo to reach the position
   }
   for (mouthPos = 190; mouthPos >= 25; mouthPos -= 2) {  // goes from 180 degrees to 0 degrees
-    mouth.write(mouthPos);                              // tell servo to go to position in variable 'pos'
-    delay(15);                                          // waits 15 ms for the servo to reach the position
+    mouth.write(mouthPos);                               // tell servo to go to position in variable 'pos'
+    delay(15);                                           // waits 15 ms for the servo to reach the position
   }
 }
 
@@ -25,7 +25,6 @@ void testScriptRShoulder() {
     delay(15);
     //Serial.println("rShoulder");                      // waits 15 ms for the servo to reach the position
   }
-  
 }
 
 void testScriptLShoulder() {
