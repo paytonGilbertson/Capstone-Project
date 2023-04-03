@@ -60,22 +60,22 @@ void setup() {
 // so they do not need to be referenced here
 void loop() {
 
-  checkLightLevels();
+  // checkLightLevels();
 
-  // // function call for BUTTON action/reaction
-  checkButtonState();
+  // // // function call for BUTTON action/reaction
+  // checkButtonState();
 
-  // RESET MOTORS TO ORIGIN
-  // Range: 160@bottom to 0@top
-  rShoulder.write(160);
+  // // RESET MOTORS TO ORIGIN
+  // // Range: 160@bottom to 0@top
+  // rShoulder.write(160);
 
-  // Range: 0@bottom to 160@top
-  lShoulder.write(0);
+  // // Range: 0@bottom to 160@top
+  // lShoulder.write(0);
 
-  // Range: 25@open to 170@closed
-  mouth.write(145);
+  // // Range: 25@open to 170@closed
+  // mouth.write(145);
 
 
   // TEST MODE
-  //photoTest();
+  photoTest();
 }

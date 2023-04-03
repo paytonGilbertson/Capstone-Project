@@ -8,7 +8,7 @@ void checkLightLevels() {
   Serial.println(lightLevel);
 
   // Turn light off if there is light, turn it on based on amount of light
-  if (lightLevel < 100) {
+  if (lightLevel < 150) {
     digitalWrite(ledPin, 1);
     //Serial.println("on");
     scream();
