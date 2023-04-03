@@ -51,15 +51,12 @@ Links included for materials purchased for this project.
 - Arduino's Servo library [GitHub Repository](https://github.com/arduino-libraries/Servo)
 - ArminJo's Talkie library [GitHub Repository](https://github.com/ArminJo/Talkie)
 
-## Credits
+## Circuit Diagram
 
-List your collaborators, if any, with links to their GitHub profiles.
+![Circuit Diagram](/Images/circuitDiagram.png)
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## Features
 
-- Light up LED nose based on amount of light
+- Light up LED nose and say warning based on amount of light
 - Says a greeting and waves
