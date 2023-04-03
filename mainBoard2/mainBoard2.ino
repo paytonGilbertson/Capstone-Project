@@ -28,6 +28,7 @@ int mouthPos = 0;
 int buttonState = 0;
 
 
+
 //--------------------------------------------------
 
 // Run only once at the beginning of the program (on plugin of the animatronic)
@@ -62,9 +63,7 @@ void loop() {
   checkLightLevels();
 
   // // function call for BUTTON action/reaction
-   checkButtonState();
-
-
+  checkButtonState();
 
   // RESET MOTORS TO ORIGIN
   // Range: 160@bottom to 0@top
@@ -75,4 +74,8 @@ void loop() {
 
   // Range: 25@open to 170@closed
   mouth.write(145);
+
+
+  // TEST MODE
+  //photoTest();
 }

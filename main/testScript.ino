@@ -1,4 +1,4 @@
-void checkLightLevels() {
+void photoTest() {
   int lightLevel = analogRead(photoresistorPin);  // Read the lightlevel
 
   lightLevel = map(lightLevel, 0, 1023, 0, 255);
@@ -6,14 +6,4 @@ void checkLightLevels() {
 
   // Print out the lightLevel value to check threshold is correct
   Serial.println(lightLevel);
-
-  // Turn light off if there is light, turn it on based on amount of light
-  if (lightLevel < 100) {
-    digitalWrite(ledPin, 1);
-    //Serial.println("on");
-    scream();
-
-  } else {
-    digitalWrite(ledPin, 0);  // Write the value
-  }
 }

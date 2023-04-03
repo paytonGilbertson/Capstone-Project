@@ -8,7 +8,7 @@ void checkLightLevels() {
   Serial.println(lightLevel);
 
   // Turn light off if there is light, turn it on based on amount of light
-  if (lightLevel < 40) {
+  if (lightLevel < 100) {
     //Serial.println("on");
     screamArms();
     screamArms();

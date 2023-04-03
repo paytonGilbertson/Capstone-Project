@@ -56,11 +56,14 @@ void setup() {
 // so they do not need to be referenced here
 void loop() {
 
-  // // function call for BUTTON action/reaction
+  // function call for BUTTON action/reaction
   checkButtonState();
- 
-  // // function call for PHOTORESISTOR and LED action/reaction
+
+  // function call for PHOTORESISTOR and LED action/reaction
   checkLightLevels();
 
-  
+
+  // TEST MODE
+
+  //photoTest();
 }
