@@ -17,7 +17,11 @@ Through the process of my project's creation, I tested the limits of myself and 
 
 ## Final Animatronic
 
+[Video of the animatronic](https://youtube.com/shorts/_anS58K9lL4?feature=share)
+
 ![Final animatronic](/Images/theBoy.png)
+
+
 
 
 ## Materials and Requirements
